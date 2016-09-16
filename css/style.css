@@ -9,9 +9,15 @@ Author: Michael Culpepper Mike@prejeancreative.com
 
 /* ---- reset ---- */
 
+@font-face {
+  font-family: roboto;
+  src: url("fonts/Roboto-Regular.ttf");
+}
+
 body {
+  color: #ffd700;
   margin: 0;
-  font:normal 75% Arial, Helvetica, sans-serif;
+  font:normal 75% 'roboto', Arial, Helvetica, sans-serif;
 }
 
 canvas {
